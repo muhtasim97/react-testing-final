@@ -6,7 +6,7 @@ const Greet: React.FC<Props> = ({ name }) => {
   return (
     <div>
       greet
-      <div>hello {name?name:"Stranger"}</div>
+      <div>hello {name ? name : "Stranger"}</div>
     </div>
   );
 };
